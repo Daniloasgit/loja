@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(255, 0, 34)
+}
+.top {
+    padding: 20px;
+    font-size: 30px; 
+}
+
+.navegação {
+    display: flex;
+    list-style: none;
+   
+}
+.navegação img {
+    width: 60px;
+}
