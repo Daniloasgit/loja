@@ -1,5 +1,14 @@
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 25px;
+}
+
 body {
-    background-color: rgb(255, 0, 34)
+    background-color: rgba(0, 89, 255, 0.699);
 }
 .top {
     padding: 20px;
@@ -13,4 +22,77 @@ body {
 }
 .navegação img {
     width: 60px;
+}
+
+.grade {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.botao {
+    background-color: rgba(0, 89, 255, 0.699);
+        color: rgb(238, 255, 0);
+        text-decoration: none;
+        padding: 15px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 170px;
+        height: 100px;
+}
+
+
+.vendas {
+    margin: 23px;
+    padding: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto   
+}
+
+.vendas img {
+width:100%;
+}
+.texto {
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+
+.textprod {color: rgb(33, 255, 44);
+
+}
+
+.botao img {
+    width: 60px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    text-align: right;
+   
+}
+
+.menu li {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.rodape {
+    font-size: 30px;
+    padding: 30px;   
+    text-align: center;
+    min-width: 320px;
+
+    
 }
