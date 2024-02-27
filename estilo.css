@@ -5,6 +5,7 @@
 
 main{
     padding: 25px;
+    background-color: rgb(0, 47, 255);
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 .top {
     padding: 20px;
-    font-size: 30px; 
+    font-size: 20px; 
 }
 
 .navegação {
@@ -39,16 +40,23 @@ body {
     background-color: rgba(0, 89, 255, 0.699);
         color: rgb(238, 255, 0);
         text-decoration: none;
-        padding: 15px;
+        padding: 20px;
         display: flex;
         margin-left: auto;
         margin-right: auto;
         border-radius: 20px;
-        font-size: 20px;
-        width: 170px;
+        font-size: 15px;
+        width: 150px;
         height: 100px;
 }
 
+.botao:hover {
+    background-color: rgb(0, 255, 34);
+}
+
+.botao img{
+    height: 60px
+}
 
 .vendas {
     margin: 23px;
@@ -71,16 +79,15 @@ width:100%;
 
 }
 
-.botao img {
-    width: 60px;
-}
-
 .menu {
     display: flex;
     list-style: none;
     margin-left: auto;
     text-align: right;
-   
+}
+
+.menu a:hover {
+    color: rgb(0, 255, 34);
 }
 
 .menu li {
@@ -93,6 +100,37 @@ width:100%;
     padding: 30px;   
     text-align: center;
     min-width: 320px;
+}
 
-    
+.contato {
+    background-color: #1a17b6;
+    padding: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.formulario { 
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 20px;
+  border: none;
+  background-color: #e2ff3c;
+}
+
+textarea.campo {
+    height: 100px;
+}
+
+.rotulo {
+    display: block ;
+    margin-bottom: 20px;
+}
+ 
+.final {
+    margin-left: auto;
+    font-size: 30px;
 }
