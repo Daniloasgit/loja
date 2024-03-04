@@ -79,6 +79,8 @@ body {
     margin-right: auto;
     background-color: rgb(30 95 149);
     width: 320px;
+
+    
 }
 
 .vendas img {
@@ -165,17 +167,55 @@ textarea.campo {
     width: 100px;
 }
 
-@media (min-width: 720px) {
-   .vendas { 
-    margin: 23px;
-    padding: 25px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(30 95 149);
-    width: 320px;
+@media (min-width: 320px) {
+    .vendas {
+        margin: 26px;
+        padding: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(30 95 149);
+        width: 320px;
     }
-    .vendas img {
+  
+}
 
+@media (min-width: 320px) {
+    .textprod {
+        color: rgb(33, 255, 44);
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 320px) {
+    .rodape {
+        font-size: 30px;
+        padding: 31px;
+        text-align: center;
+        color: #ff0000;
+        background-image: url(deep\ sea.jpg);
+    }
+}
+
+@media (min-width: 320px) {
+    .vendas img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) {
+    .titulo {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 320px) {
+    .grade {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        background-color: #1a17b6;
     }
 }
